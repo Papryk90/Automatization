@@ -19,6 +19,6 @@ sleep(1)
 driver.find_element(By.ID, value="pass").send_keys("randompassword")
 sleep(1)
 driver.find_element(By.XPATH, value="//button[@type='submit']").click()
-sleep(1)
+sleep(4)
 
 driver.close()
